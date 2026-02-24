@@ -34,13 +34,4 @@ One dashboard to manage AutoMod, reputation, raids, appeals, and automation acro
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
----
-
-### Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=slauko&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=F97316&icon_color=F97316&text_color=c9d1d9" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=slauko&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=F97316&text_color=c9d1d9" height="165" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=slauko&theme=github-dark-blue&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=c9d1d9&dates=555555" />
-
 </div>
