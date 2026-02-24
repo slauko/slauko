@@ -6,8 +6,6 @@
 
 Building tools for gaming communities.
 
-</div>
-
 ---
 
 ### Currently building
@@ -39,8 +37,6 @@ One dashboard to manage AutoMod, reputation, raids, appeals, and automation acro
 ---
 
 ### Stats
-
-<div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=slauko&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=F97316&icon_color=F97316&text_color=c9d1d9" height="165" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=slauko&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=F97316&text_color=c9d1d9" height="165" />
