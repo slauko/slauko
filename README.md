@@ -31,6 +31,8 @@ One system for moderation, reputation, automation, and billing - powered by a sh
 
 ## Stack
 
+<div align="center">
+
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
@@ -40,6 +42,8 @@ One system for moderation, reputation, automation, and billing - powered by a sh
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+
+</div>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=slauko&theme=github-dark-blue&hide_border=true&background=0D1117&ring=F97316&fire=F97316&currStreakLabel=F97316&sideLabels=c9d1d9&dates=555555" alt="GitHub streak stats for slauko" />
