@@ -21,17 +21,17 @@ One system for moderation, reputation, automation, and billing - powered by a sh
 
 </div>
 
+<div align="center">
+  
 ## What is running today
 
-- Monorepo platform on Node.js 22+, TypeScript 5.9, Turbo + pnpm workspaces.
-- Five app services: `web` (Nuxt 4), `api` (Fastify), `worker` (BullMQ), `discord`, `twitch`.
-- Shared packages for core engine, contracts, config, database, redis, logging, and bot primitives.
-- PostgreSQL 17 + Drizzle ORM and Redis 7 as the core data and queue layer.
-- CI validates lint, typecheck, tests, build, plus architecture boundary checks.
+ Monorepo platform on Node.js 22+, TypeScript 5.9, Turbo + pnpm workspaces.
+ Five app services: `web` (Nuxt 4), `api` (Fastify), `worker` (BullMQ), `discord`, `twitch`.
+ Shared packages for core engine, contracts, config, database, redis, logging, and bot primitives.
+ PostgreSQL 17 + Drizzle ORM and Redis 7 as the core data and queue layer.
+ CI validates lint, typecheck, tests, build, plus architecture boundary checks.
 
 ## Stack
-
-<div align="center">
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)
