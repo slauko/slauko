@@ -2,7 +2,7 @@
 
 # Hey, I'm slauko
 
-I build infrastructure-heavy products for online communities.
+I build product-focused web apps with Nuxt and TypeScript.
 
 <a href="https://github.com/SlaukoScript">
   <img src="https://raw.githubusercontent.com/SlaukoScript/.github/main/assets/logo.png" alt="SlaukoScript" width="420" />
@@ -10,9 +10,9 @@ I build infrastructure-heavy products for online communities.
 
 ### Current focus: SlaukoScript
 
-Cross-platform community operations for Discord and Twitch.
+A product suite built on a Nuxt 4 monorepo — one shared UI layer powering multiple apps.
 
-One system for moderation, reputation, automation, and billing - powered by a shared web dashboard, API, bots, and background workers.
+Currently shipping **Moderation** (cross-platform Discord + Twitch moderation) and **GymTrack** (offline-first gym tracking PWA).
 
 [![Website](https://img.shields.io/badge/slaukoscript.com-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://slaukoscript.com)
 [![Org](https://img.shields.io/badge/SlaukoScript-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SlaukoScript)
@@ -22,14 +22,14 @@ One system for moderation, reputation, automation, and billing - powered by a sh
 </div>
 
 <div align="center">
-  
+
 ## What is running today
 
- Monorepo platform on Node.js 22+, TypeScript 5.9, Turbo + pnpm workspaces.
- Five app services: `web` (Nuxt 4), `api` (Fastify), `worker` (BullMQ), `discord`, `twitch`.
- Shared packages for core engine, contracts, config, database, redis, logging, and bot primitives.
- PostgreSQL 17 + Drizzle ORM and Redis 7 as the core data and queue layer.
- CI validates lint, typecheck, tests, build, plus architecture boundary checks.
+🏗️ Nuxt 4 monorepo with Turbo + pnpm workspaces on Node.js 22+ and TypeScript 5.9.
+📦 Three apps: `web` (landing), `moderation` (dashboard + bots), `gymtrack` (fitness PWA).
+🧩 Shared packages: `ui` (Nuxt layer), `core` (types/validation), `server` (auth/middleware), `tooling` (test/build).
+🎨 Single UI layer — all generic components, layouts, and modules centralized. Apps are thin consumers.
+🐳 Docker-deployed on VPS with Nginx Proxy Manager.
 
 ## Stack
 
@@ -37,11 +37,11 @@ One system for moderation, reputation, automation, and billing - powered by a sh
 ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black)
 
 </div>
 
