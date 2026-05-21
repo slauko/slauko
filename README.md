@@ -10,7 +10,8 @@ I build product-focused web apps with Nuxt and TypeScript — and an autonomous 
 
 ### Current focus: SlaukoScript
 
-A 10-repo product ecosystem — shared TypeScript packages + per-app GHCR images + a central docker-compose. 
+A 10-repo product ecosystem — shared TypeScript packages + per-app GHCR images + a central docker-compose.
+<p />
 Self-hosted on a VPS.
 
 Currently shipping **Moderation** (cross-platform Discord + Twitch moderation), **GymTrack** (offline-first gym tracking PWA), and a self-hosted **AI gateway** that powers both the chat dashboard and an in-house Claude-Code-compatible agentic CLI.
