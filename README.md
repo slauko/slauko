@@ -2,13 +2,41 @@
 
 # Hey, I'm slauko
 
-I build product-focused web platforms with TypeScript, React, Astro, Hono, Postgres, Redis, and a stubborn preference for systems that can actually run locally.
+I build Linux systems tooling and web platforms, with a stubborn preference for systems that can actually run locally.
+
+<img src="https://github.com/SlaukoKit.png?size=256" alt="SlaukoKit organization icon" width="160" />
+
+### Currently working on: SlaukoKit
+
+From kernel internals to the desktop surface.
+
+Linux internals · C / C++ · Wayland · Systems programming
+
+</div>
+
+SlaukoKit is my experimental Linux toolkit: a kernel core, a userspace client
+library, and a planned shared framework for surfaces, menus, input, and
+configuration.
+
+The focus right now:
+
+- Bringing the core, libraries, and tools together under the SlaukoKit name
+- Extracting `libslkui` so application packs can share UI and input code
+- Building toward Wayland-native surfaces with an X11 fallback
+- Generalizing configuration and keeping pack-specific code small
+
+The implementation repositories are private. Shared infrastructure comes first;
+individual packs build on top.
+
+---
+
+<div align="center">
+
+## Other work: SlaukoScript
 
 <a href="https://github.com/SlaukoScript">
   <img src="https://raw.githubusercontent.com/SlaukoScript/.github/main/assets/logo.png" alt="SlaukoScript" width="420" />
 </a>
-
-### Current Focus: SlaukoScript
 
 A clean creator-moderation platform for teams that protect communities across Discord, Twitch, and future managed-provider integrations.
 
@@ -17,13 +45,12 @@ The old SlaukoScript v1 multi-repo setup has been archived. The active platform 
 [![Website](https://img.shields.io/badge/slaukoscript.com-F97316?style=for-the-badge&logo=googlechrome&logoColor=white)](https://slaukoscript.com)
 [![Dashboard](https://img.shields.io/badge/mod.slaukoscript.com-FF6B4A?style=for-the-badge&logo=react&logoColor=white)](https://mod.slaukoscript.com)
 [![Org](https://img.shields.io/badge/SlaukoScript-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SlaukoScript)
-[![Feedback](https://img.shields.io/badge/Feedback-Issues-22C55E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SlaukoScript/feedback/issues)
 
 </div>
 
 <div align="center">
 
-## What's Running Now
+## SlaukoScript architecture
 
 **Platform monorepo**
 
