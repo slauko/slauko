@@ -14,19 +14,20 @@ Linux internals · C / C++ · Wayland · Systems programming
 
 </div>
 
-SlaukoKit is my experimental Linux toolkit: a kernel core, a userspace client
-library, and a planned shared framework for surfaces, menus, input, and
-configuration.
+SlaukoKit is my experimental Linux toolkit. It combines a kernel module,
+userspace client and CLI, and an application SDK for interactive gamepacks.
 
-The focus right now:
+The SDK currently includes:
 
-- Bringing the core, libraries, and tools together under the SlaukoKit name
-- Extracting `libslkui` so application packs can share UI and input code
-- Building toward Wayland-native surfaces with an X11 fallback
-- Generalizing configuration and keeping pack-specific code small
+- `libslauko` for sessions and typed reads
+- `libslkscript` for sandboxed Lua scripts, events, actions, and drawing commands
+- `libslkapp` for settings, menus, gates, and worker/UI coordination
+- `libslkui` for Wayland/X11 surfaces, input, and rendering
 
-The implementation repositories are private. Shared infrastructure comes first;
-individual packs build on top.
+Each gamepack captures a bounded snapshot in C and defines its game-specific
+meaning in Lua. Feature scripts own their rules, profiles, settings, and
+visuals. The current work is simplifying the remaining app fallback and
+validating native runtime behavior. The implementation repositories are private.
 
 ---
 
